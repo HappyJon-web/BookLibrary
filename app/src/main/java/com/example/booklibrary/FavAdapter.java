@@ -94,7 +94,7 @@ public class FavAdapter extends RecyclerView.Adapter<FavAdapter.MyViewHolder> {
         LinearLayout mainLayout;
 
         public MyViewHolder(@NonNull View itemView) {
-            super(itemView);
+            super(itemView); //Initialize all the elements
             book_id_fav = itemView.findViewById(R.id.book_id_fav);
             book_title_fav = itemView.findViewById(R.id.book_title_fav);
             book_author_fav = itemView.findViewById(R.id.book_author_fav);
