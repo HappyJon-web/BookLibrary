@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/delete_all"
+        android:title="Delete All"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="never"/>
+<!--    Delete All menu option. The trash icon represents the item, but since showAsAction is 'never',-->
+<!--    this option only shows in words. Clicking this option will prompt user to delete all data in-->
+<!--    the app's database.-->
+
+    <item android:id="@+id/favorites"
+        android:title="Favorites"
+        android:icon="@drawable/ic_favyes"
+        app:showAsAction="never"/>
+<!--    Favorites menu option. The heart icon represents the item, but since showAsAction is 'never',-->
+<!--    this option only shows in words. Clicking this option will take the user to the 'Favorites' page.-->
+
+    <item android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+<!--    Search option. CLicking this will let the user filter the search results.-->
+
+</menu>

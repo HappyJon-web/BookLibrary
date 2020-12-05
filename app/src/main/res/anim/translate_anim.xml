@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    Anim xml class handles the animation of certain elements in the phone app.-->
+
+    <translate
+        android:fromYDelta="100%"
+        android:toYDelta="0%"
+        android:duration="800"/>
+<!--    Set the beginning and end position of the element and its animation duration-->
+
+</set>
